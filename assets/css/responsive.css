@@ -1040,6 +1040,10 @@
 
 @media only screen and (max-width: 599px){
   
+  html {
+    scroll-padding-top: 73px;
+  }
+
   .main-header .header-lower .menu-right-content .btn-box{
     display: none;
   }
@@ -1057,38 +1061,11 @@
     line-height: 55px !important;
   }
 
-  /* CUSTOM */
-  /* .info-section {
-    position: relative;
-    top: -0.8rem;
-    border-radius: 15px;
-    background-color: white;
-    z-index: 1;
-  } */
-
   .info-section .title-inner .year-box{
     position: relative;
     margin-bottom: 10px;
     width: 100%;
     height: 100%;
-  }
-
-  #content_block_one .content-box .inner-box .single-item .icon-box {
-    /* left: 6%; */
-  }
-   
-  #content_block_one .content-box .inner-box .single-item:first-child .icon-box { /* Properly adjust some icons */
-    /* left: 8%; */
-  }
-
-  
-  #content_block_one .content-box .inner-box .single-item:nth-child(2) .icon-box {
-    /* left: 6%; */
-  }
-
-  #content_block_one .content-box .inner-box .single-item h3 {
-    /* width: 77%;
-    top: 0.3em; */
   }
 
   .info-section .title-inner .year-box .year-border, 
